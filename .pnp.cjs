@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@popperjs/core", "npm:2.11.8"],\
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.5.0"],\
@@ -4100,6 +4101,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@popperjs/core", [\
+      ["npm:2.11.8", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@popperjs-core-npm-2.11.8-f1692e11a0-10c0.zip/node_modules/@popperjs/core/",\
+        "packageDependencies": [\
+          ["@popperjs/core", "npm:2.11.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@rollup/plugin-babel", [\
       ["npm:5.3.1", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@rollup-plugin-babel-npm-5.3.1-6039a4d033-10c0.zip/node_modules/@rollup/plugin-babel/",\
@@ -6522,7 +6532,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-a4b45466df/4/AppData/Local/Yarn/Berry/cache/bootstrap-npm-5.3.3-da08e2f0fe-10c0.zip/node_modules/bootstrap/",\
         "packageDependencies": [\
           ["bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:5.3.3"],\
-          ["@popperjs/core", null],\
+          ["@popperjs/core", "npm:2.11.8"],\
           ["@types/popperjs__core", null]\
         ],\
         "packagePeers": [\
@@ -9181,6 +9191,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["ez-currency", "workspace:."],\
+          ["@popperjs/core", "npm:2.11.8"],\
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.5.0"],\
