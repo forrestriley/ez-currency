@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:5.3.3"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:19.0.0"],\
+          ["react-router-dom", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:7.2.0"],\
           ["react-scripts", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:5.0.1"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -4634,6 +4635,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/cookie", [\
+      ["npm:0.6.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-cookie-npm-0.6.0-1f4c3f48f0-10c0.zip/node_modules/@types/cookie/",\
+        "packageDependencies": [\
+          ["@types/cookie", "npm:0.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/eslint", [\
       ["npm:8.56.12", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-eslint-npm-8.56.12-3bfdf2144c-10c0.zip/node_modules/@types/eslint/",\
@@ -7127,6 +7137,13 @@ const RAW_RUNTIME_STATE =
           ["cookie", "npm:0.7.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.0.2", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/cookie-npm-1.0.2-7a4273d897-10c0.zip/node_modules/cookie/",\
+        "packageDependencies": [\
+          ["cookie", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["cookie-signature", [\
@@ -9198,6 +9215,7 @@ const RAW_RUNTIME_STATE =
           ["bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:5.3.3"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:19.0.0"],\
+          ["react-router-dom", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:7.2.0"],\
           ["react-scripts", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:5.0.1"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -15363,6 +15381,63 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-router", [\
+      ["npm:7.2.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-router-npm-7.2.0-1045772925-10c0.zip/node_modules/react-router/",\
+        "packageDependencies": [\
+          ["react-router", "npm:7.2.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:503928591da5c6beb82da3b073e9726d99c4cf0c7513b06b57f80da46cad09cdebea3b805dceef7707730cdec529543c91a58e6686bf875c8a05dc5d7b784899#npm:7.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-router-virtual-44eb93e3d0/4/AppData/Local/Yarn/Berry/cache/react-router-npm-7.2.0-1045772925-10c0.zip/node_modules/react-router/",\
+        "packageDependencies": [\
+          ["react-router", "virtual:503928591da5c6beb82da3b073e9726d99c4cf0c7513b06b57f80da46cad09cdebea3b805dceef7707730cdec529543c91a58e6686bf875c8a05dc5d7b784899#npm:7.2.0"],\
+          ["@types/cookie", "npm:0.6.0"],\
+          ["@types/react", null],\
+          ["@types/react-dom", null],\
+          ["cookie", "npm:1.0.2"],\
+          ["react", "npm:19.0.0"],\
+          ["react-dom", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:19.0.0"],\
+          ["set-cookie-parser", "npm:2.7.1"],\
+          ["turbo-stream", "npm:2.4.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-router-dom", [\
+      ["npm:7.2.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-router-dom-npm-7.2.0-65e477d8a5-10c0.zip/node_modules/react-router-dom/",\
+        "packageDependencies": [\
+          ["react-router-dom", "npm:7.2.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:7.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-router-dom-virtual-503928591d/4/AppData/Local/Yarn/Berry/cache/react-router-dom-npm-7.2.0-65e477d8a5-10c0.zip/node_modules/react-router-dom/",\
+        "packageDependencies": [\
+          ["react-router-dom", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:7.2.0"],\
+          ["@types/react", null],\
+          ["@types/react-dom", null],\
+          ["react", "npm:19.0.0"],\
+          ["react-dom", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:19.0.0"],\
+          ["react-router", "virtual:503928591da5c6beb82da3b073e9726d99c4cf0c7513b06b57f80da46cad09cdebea3b805dceef7707730cdec529543c91a58e6686bf875c8a05dc5d7b784899#npm:7.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-scripts", [\
       ["npm:5.0.1", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-scripts-npm-5.0.1-d06bd2d5ad-10c0.zip/node_modules/react-scripts/",\
@@ -16136,6 +16211,15 @@ const RAW_RUNTIME_STATE =
           ["escape-html", "npm:1.0.3"],\
           ["parseurl", "npm:1.3.3"],\
           ["send", "npm:0.19.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["set-cookie-parser", [\
+      ["npm:2.7.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/set-cookie-parser-npm-2.7.1-0e92d9e679-10c0.zip/node_modules/set-cookie-parser/",\
+        "packageDependencies": [\
+          ["set-cookie-parser", "npm:2.7.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17299,6 +17383,15 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/typescript",\
           "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["turbo-stream", [\
+      ["npm:2.4.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/turbo-stream-npm-2.4.0-e0cec53097-10c0.zip/node_modules/turbo-stream/",\
+        "packageDependencies": [\
+          ["turbo-stream", "npm:2.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
