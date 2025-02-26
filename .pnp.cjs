@@ -27,11 +27,13 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@awesome.me/kit-12b5dfb658", "npm:1.0.7::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40awesome.me%2Fkit-12b5dfb658%2F-%2F1.0.7%2Fkit-12b5dfb658-1.0.7.tgz"],\
           ["@popperjs/core", "npm:2.11.8"],\
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.5.0"],\
           ["bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:5.3.3"],\
+          ["font-awesome", "npm:4.7.0"],\
           ["react", "npm:19.0.0"],\
           ["react-bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:2.10.9"],\
           ["react-dom", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:19.0.0"],\
@@ -92,6 +94,16 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/ajv",\
           "ajv"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@awesome.me/kit-12b5dfb658", [\
+      ["npm:1.0.7::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40awesome.me%2Fkit-12b5dfb658%2F-%2F1.0.7%2Fkit-12b5dfb658-1.0.7.tgz", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@awesome.me-kit-12b5dfb658-npm-1.0.7-78a5e50ee5-10c0.zip/node_modules/@awesome.me/kit-12b5dfb658/",\
+        "packageDependencies": [\
+          ["@awesome.me/kit-12b5dfb658", "npm:1.0.7::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40awesome.me%2Fkit-12b5dfb658%2F-%2F1.0.7%2Fkit-12b5dfb658-1.0.7.tgz"],\
+          ["@fortawesome/fontawesome-common-types", "npm:6.7.2::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Ffontawesome-common-types%2F-%2F6.7.2%2Ffontawesome-common-types-6.7.2.tgz"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3517,6 +3529,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@eslint-js-npm-8.57.1-dec269f278-10c0.zip/node_modules/@eslint/js/",\
         "packageDependencies": [\
           ["@eslint/js", "npm:8.57.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@fortawesome/fontawesome-common-types", [\
+      ["npm:6.7.2::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Ffontawesome-common-types%2F-%2F6.7.2%2Ffontawesome-common-types-6.7.2.tgz", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@fortawesome-fontawesome-common-types-npm-6.7.2-1814b94c75-10c0.zip/node_modules/@fortawesome/fontawesome-common-types/",\
+        "packageDependencies": [\
+          ["@fortawesome/fontawesome-common-types", "npm:6.7.2::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Ffontawesome-common-types%2F-%2F6.7.2%2Ffontawesome-common-types-6.7.2.tgz"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9415,11 +9436,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["ez-currency", "workspace:."],\
+          ["@awesome.me/kit-12b5dfb658", "npm:1.0.7::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40awesome.me%2Fkit-12b5dfb658%2F-%2F1.0.7%2Fkit-12b5dfb658-1.0.7.tgz"],\
           ["@popperjs/core", "npm:2.11.8"],\
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.5.0"],\
           ["bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:5.3.3"],\
+          ["font-awesome", "npm:4.7.0"],\
           ["react", "npm:19.0.0"],\
           ["react-bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:2.10.9"],\
           ["react-dom", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:19.0.0"],\
@@ -9668,6 +9691,15 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/debug",\
           "debug"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["font-awesome", [\
+      ["npm:4.7.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/font-awesome-npm-4.7.0-7a553c5fbb-10c0.zip/node_modules/font-awesome/",\
+        "packageDependencies": [\
+          ["font-awesome", "npm:4.7.0"]\
         ],\
         "linkType": "HARD"\
       }]\
