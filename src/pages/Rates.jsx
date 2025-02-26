@@ -3,7 +3,11 @@
 export function Rates() {
   return (
     <>
-      <h1> Rates Page </h1>
+      <div className="row text-center">
+        <div className="col-12">
+          Rates
+        </div>
+      </div>
     </>
   )
 }

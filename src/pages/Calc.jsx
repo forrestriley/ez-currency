@@ -3,7 +3,11 @@
 export function Calc() {
   return (
     <>
-      <h1> Calc Page </h1>
+      <div className="row text-center">
+        <div className="col-12">
+          Calc
+        </div>
+      </div>
     </>
   )
 }
