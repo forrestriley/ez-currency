@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ez-currency/static/css/main.b171fb13.css",
+    "main.js": "/ez-currency/static/js/main.fc02ad3b.js",
+    "static/js/929.4581860b.chunk.js": "/ez-currency/static/js/929.4581860b.chunk.js",
+    "index.html": "/ez-currency/index.html",
+    "main.b171fb13.css.map": "/ez-currency/static/css/main.b171fb13.css.map",
+    "main.fc02ad3b.js.map": "/ez-currency/static/js/main.fc02ad3b.js.map",
+    "929.4581860b.chunk.js.map": "/ez-currency/static/js/929.4581860b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b171fb13.css",
+    "static/js/main.fc02ad3b.js"
+  ]
+}
