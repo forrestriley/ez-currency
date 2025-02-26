@@ -33,6 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/react", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.5.0"],\
           ["bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:5.3.3"],\
+          ["chart.js", "npm:2.9.4"],\
           ["font-awesome", "npm:4.7.0"],\
           ["react", "npm:19.0.0"],\
           ["react-bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:2.10.9"],\
@@ -7008,6 +7009,38 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["chart.js", [\
+      ["npm:2.9.4", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/chart.js-npm-2.9.4-ab62c3c6f4-10c0.zip/node_modules/chart.js/",\
+        "packageDependencies": [\
+          ["chart.js", "npm:2.9.4"],\
+          ["chartjs-color", "npm:2.4.1"],\
+          ["moment", "npm:2.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["chartjs-color", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/chartjs-color-npm-2.4.1-c16310d721-10c0.zip/node_modules/chartjs-color/",\
+        "packageDependencies": [\
+          ["chartjs-color", "npm:2.4.1"],\
+          ["chartjs-color-string", "npm:0.6.0"],\
+          ["color-convert", "npm:1.9.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["chartjs-color-string", [\
+      ["npm:0.6.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/chartjs-color-string-npm-0.6.0-49eec5a83f-10c0.zip/node_modules/chartjs-color-string/",\
+        "packageDependencies": [\
+          ["chartjs-color-string", "npm:0.6.0"],\
+          ["color-name", "npm:1.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["check-types", [\
       ["npm:11.2.3", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/check-types-npm-11.2.3-ec5ac75c40-10c0.zip/node_modules/check-types/",\
@@ -9442,6 +9475,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/react", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:13.5.0"],\
           ["bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:5.3.3"],\
+          ["chart.js", "npm:2.9.4"],\
           ["font-awesome", "npm:4.7.0"],\
           ["react", "npm:19.0.0"],\
           ["react-bootstrap", "virtual:6a63225fc20e0a21085c78f8534ae05cdb5ea6728c8438613c459f78ef9b5ace7484e40b689d2db5092d7634f5b1937d9643e81b48694b4a64b76fcc8279a421#npm:2.10.9"],\
@@ -12802,6 +12836,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/mkdirp-npm-3.0.1-f94bfa769e-10c0.zip/node_modules/mkdirp/",\
         "packageDependencies": [\
           ["mkdirp", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["moment", [\
+      ["npm:2.30.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/moment-npm-2.30.1-1c51a5c631-10c0.zip/node_modules/moment/",\
+        "packageDependencies": [\
+          ["moment", "npm:2.30.1"]\
         ],\
         "linkType": "HARD"\
       }]\
